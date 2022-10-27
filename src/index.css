@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.homeThumbnail {
+  height: 250px;
+  width: 400px !important; 
+  object-fit: cover;
+}
+
+.logo {
+  height:100px;
+  width:auto !important;
+}

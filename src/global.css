@@ -1,0 +1,93 @@
+h1 {
+  font-weight: 700;
+  font-size: 75px;
+  color: rgb(36,51,49) !important;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+
+h3 {
+  font-weight:300;
+  color:black;
+}
+h5 {
+  font-weight:300;
+  color:slategray;
+}
+
+p {
+  font-size:25px;
+}
+.links {
+  color:black;
+  font-weight:600;
+  text-decoration-line:none;
+}
+
+.active, .links:hover {
+  color:rgb(72,102,98);
+}
+
+.thumbnail {
+  width:50%;
+  height:auto;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction:column;
+}
+.flex-container  > * {
+  flex: 1;
+}
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:500px;
+  width:auto;
+}
+
+.special {
+  height: auto;
+  background-image: url('');
+}
+.socials {
+  height: 40px;
+  width:auto;
+}
+
+
+@media (min-width: 992px) { 
+  .special {
+    height:500px;
+    background-size:contain;
+    background-image: url('./Pics/green_cloud.png');
+  }
+
+  h1 {
+    font-size: 75px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  .flex-container {
+    display:flex;
+    flex-direction:row;
+  }
+  .thumbnail {
+    width:100%;
+    height:auto;
+  }
+}
+
+@media (min-width: 1200px) { 
+  h1 {
+    font-size: 100px;
+  }
+}
+
