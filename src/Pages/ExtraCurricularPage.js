@@ -19,7 +19,7 @@ function ExtraCurricularPage() {
                     </Col>
                     <Col className="d-flex">
                         <Container className="my-auto text-center text-lg-start">
-                            <h3>Along my college life, I've joined two organization and one internship program. Listed below are more information about them</h3>
+                            <h3>Along my college life, I've joined two organizations and one internship program. Listed below are more information about them</h3>
                         </Container>
                     </Col>
                 </Row>

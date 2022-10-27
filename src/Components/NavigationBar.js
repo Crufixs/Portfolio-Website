@@ -42,10 +42,7 @@ const NavigationBar = () => {
     <Navbar fixed="top" expand="sm" style={{ backgroundColor: scrollPosition > 50 || windowWidth < 573  ? Constants.PRIMARY1 : "rgb(150,210,200,0.15)" }}>
       <Container>
         <Navbar.Brand href="#home" className="d-flex">
-
             <p className="my-auto"style={{ fontWeight: "600"}}>Crufixs</p>
-
-
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
