@@ -13,6 +13,6 @@ In order to run the website, clone the project from the github repository and th
 
 ### `npm build`
 
-Running this will install the projects dependencies. After the installation the website can be launched by typing the following in the commandline prompt
+Running this will install the projects dependencies. After the installation the website can be launched by typing the following in the command line prompt
 
 ### `npm start`
