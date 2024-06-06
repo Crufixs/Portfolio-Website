@@ -15,8 +15,8 @@ This project is my personal portfolio showcasing my personal interests, projects
 
 In order to run the website, clone the project from the github repository and then run the following line in the project directory using the command line prompt
 
-### `npm build`
+### `pnpm install`
 
 Running this will install the projects dependencies. After the installation the website can be launched by typing the following in the command line prompt
 
-### `npm start`
+### `pnpm start`
