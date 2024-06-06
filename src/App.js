@@ -4,7 +4,7 @@ import HomePage from './Pages/HomePage.js'
 import NavigationBar from './Components/NavigationBar.js'
 import ProjectsPage from './Pages/ProjectsPage';
 import SchoolPage from './Pages/SchoolPage';
-import ExtraCurricularPage from './Pages/ExtraCurricularPage.js';
+import WorkPage from './Pages/WorkPage.js';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           <SchoolPage/>
         </Route>
         <Route exact path ="/co-curriculars">
-          <ExtraCurricularPage/>
+          <WorkPage/>
         </Route>
       </Switch>
     </Router>

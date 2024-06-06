@@ -64,7 +64,7 @@ const NavigationBar = () => {
             </Nav.Link>
             <Nav.Link>
               <Link to="/co-curriculars" className={"links " + (location.pathname === "/co-curriculars" ? "active" : "")}>
-                Extra Curriculars
+                Work
               </Link>
             </Nav.Link>
           </Nav>
